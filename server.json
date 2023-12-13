@@ -4,7 +4,7 @@
             "id": 1,
             "name": "The Walking Dead",
             "description": "The Walking Dead is an American post-apocalyptic horror television series developed by Frank Darabont for AMC that is based on the comic book series of the same name by Robert Kirkman, Tony Moore, and Charlie Adlard.",
-            "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/The_Walking_Dead_season_1_poster.jpg",
+            "image": "https://images5.alphacoders.com/543/543469.jpg",
             "rating": 8.4,
             "genre": "Horror"
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "name": "The Flash",
             "description": "The Flash is an American superhero television series developed by Greg Berlanti, Andrew Kreisberg, and Geoff Johns, airing on The CW. It is based on the Barry Allen incarnation of DC Comics character the Flash, a costumed superhero crime-fighter with the power to move at superhuman speeds.",
-            "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Flash_2014_logo.png",
+            "image": "https://images5.alphacoders.com/463/463438.jpg",
             "rating": 7.9,
             "genre": "Action"
         },
@@ -31,6 +31,14 @@
             "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/The_Big_Bang_Theory_%28Official_Title_Card%29.png",
             "rating": 8.1,
             "genre": "Comedy"
+        },
+        {
+            "id": 5,
+            "name": "Fullmetal Alchemist: Brotherhood",
+            "description": "Fullmetal Alchemist: Brotherhood is an anime series adapted from the Fullmetal Alchemist manga by Hiromu Arakawa. Produced by Bones, the series is directed by Yasuhiro Irie and written by Hiroshi Ōnogi.",
+            "image": "https://images7.alphacoders.com/459/459039.jpg",
+            "rating": 9.1,
+            "genre": "Anime"
         }
     ]
 }

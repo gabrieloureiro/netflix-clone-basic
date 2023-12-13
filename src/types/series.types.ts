@@ -2,7 +2,7 @@ type SeriesType = {
   id: number;
   name: string;
   description: string;
-  ratting: number;
+  rating: number;
   image: string;
   genre: string;
 };
