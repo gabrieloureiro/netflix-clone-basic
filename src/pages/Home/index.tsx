@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { twMerge } from "tailwind-merge";
 
 import { Layout } from "@/components";
 import { apiClient } from "@/services";
@@ -12,6 +13,8 @@ function Home() {
   const [selectedSeries, setSelectedSeries] = useState<SeriesType[]>(
     [] as SeriesType[],
   );
+
+  console.log(selectedSeries);
 
   const bestRatingSerie = series.find(
     (serie) => serie.rating === Math.max(...series.map((s) => s.rating)),
@@ -78,7 +81,10 @@ function Home() {
           {series.map((serie) => (
             <img
               onClick={() => handleSelectSerie(serie)}
-              className="flex max-h-[112px] w-[200px] flex-1 rounded-md px-1"
+              className={twMerge(
+                "flex max-h-[112px] w-[200px] flex-1 rounded-md px-1",
+                `${selectedSeries.includes(serie) && "rounded-full"}`,
+              )}
               key={serie.id}
               src={serie.image}
               alt={serie.name}
